@@ -1,11 +1,11 @@
-package src.java.main.com.game.processor;
+package com.game.processor;
 
-import src.java.main.com.game.component.GameBoard;
-import src.java.main.com.game.constants.GameConstants;
+import com.game.component.GameBoard;
+import com.game.constants.GameConstants;
 
 import java.util.*;
 
-import static src.java.main.com.game.constants.GameConstants.*;
+import static com.game.constants.GameConstants.*;
 
 public class GameProcessor {
 

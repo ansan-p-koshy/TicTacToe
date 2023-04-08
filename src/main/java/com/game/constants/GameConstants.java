@@ -1,4 +1,4 @@
-package src.java.main.com.game.constants;
+package com.game.constants;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package src.java.main.com.game.component;
+package com.game.component;
 
-import src.java.main.com.game.constants.GameConstants;
-import src.java.main.com.game.processor.GameProcessor;
+import com.game.constants.GameConstants;
+import com.game.processor.GameProcessor;
 
 public class GameBoard {
 
