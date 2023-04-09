@@ -5,7 +5,7 @@ import com.game.processor.GameProcessor;
 
 public class GameBoard {
 
-    public static void printGameBoard(String[][] gameBoard) {
+    public void printGameBoard(String[][] gameBoard) {
         for(String[] row : gameBoard) {
             for(String ch : row) {
                 System.out.print(ch);
@@ -14,7 +14,7 @@ public class GameBoard {
         }
     }
 
-    public static void placePiece(String[][] gameBoard, Integer position, String user) {
+    public void placePiece(String[][] gameBoard, Integer position, String user) {
         String symbol = "   ";
 
         if(user.equals(GameConstants.PLAYER)) {
